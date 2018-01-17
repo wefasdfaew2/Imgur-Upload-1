@@ -1,0 +1,26 @@
+{
+  "name": "imgur-uploader",
+  "version": "1.0.0",
+  "description": "Upload photo(s) to imgur from the command line!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolsek/Imgur-Upload.git"
+  },
+  "keywords": [
+    "imgur",
+    "uploader",
+    "cli",
+    "utility",
+    "photos"
+  ],
+  "author": "Nicole Tusek",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nicolsek/Imgur-Upload/issues"
+  },
+  "homepage": "https://github.com/nicolsek/Imgur-Upload#readme"
+}
