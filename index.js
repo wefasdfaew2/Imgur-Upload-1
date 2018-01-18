@@ -1,14 +1,15 @@
 /* Node Dependencies */
 var request = require('request');
+var form-data = require('form-data');
 
 /* ClientID for program */ 
-const clientID = '3752a956b4926c9';
+const clientID = '44707d4b920d48f';
 
 var options = {
 	url: 'https://api.imgur.com/3/image',
-
+    form: 'image=./testImage.jpg',
 	headers: {
-		'Authorization Client-ID' : '{{' + clientID + '}}'
+		'Authorization' : 'Client-ID ' + clientID
 	}
 }
 
@@ -36,9 +37,7 @@ if (process.argv.length < 3) {
 }
 
 function callback(err, resp, body) {
-	if (!err) {
-		console.log(body);
-	}
+    console.log(body);
 }
 
-request(options, callback);
+request.post(options, callback);

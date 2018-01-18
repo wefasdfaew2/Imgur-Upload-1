@@ -5,6 +5,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+# Photos
+photos
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.gif
+
 # Runtime data
 pids
 *.pid
