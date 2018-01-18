@@ -8,7 +8,7 @@ var options = {
 	url: 'https://api.imgur.com/3/image',
 
 	headers: {
-		'Client-ID' : '{{' + clientID + '}}'
+		'Authorization Client-ID' : '{{' + clientID + '}}'
 	}
 }
 
