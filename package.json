@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nicolsek/Imgur-Upload/issues"
   },
-  "homepage": "https://github.com/nicolsek/Imgur-Upload#readme"
+  "homepage": "https://github.com/nicolsek/Imgur-Upload#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
 }
